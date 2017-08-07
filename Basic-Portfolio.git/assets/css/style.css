@@ -12,19 +12,77 @@ body {
 }
 
 header {
-	background-color: #fff;
-	border-color: #ccc;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom-style: solid;
+	border-width: 5px;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
 
+h1 {
+	padding: 20px;
+	float: left;
 }
 
 footer {
-	background-color: #666;
+	background-color: #666666;
+	padding: 20px;
+	clear: both;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	position: relative;
+	color: #777;
+	line-height: 150%;
+}
+
+img {
+	margin: 15px;
+}
+
+.main-content {
+	padding: 200px;
+	margin: 50px;
+	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");
+}
+
+#name {
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+#links {
+	float: right;
+	padding: 10px;
 }
 
 #about {
+	background-color: #fff;
+	color: #4aaaa5;
 	width: 650px;
+	padding: 50px;
 }
 
 #connect {
-	width: 270px
+	width: 270px;
+	background-color: #fff;
+	color: #4aaaa5;
+	padding: 50px;
+	margin: 10px;
+} 
+
+#a,
+#p,
+#c {
+	float: left;
+	padding: 10px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #fff;
 }
+
+
