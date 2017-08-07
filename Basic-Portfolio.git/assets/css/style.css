@@ -8,7 +8,8 @@ body {
 	background-color: #fff;
 	color: #777;
 	border-color: #ddd;
-	width: 960px;
+	background-repeat: repeat;
+	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");
 }
 
 header {
@@ -16,9 +17,9 @@ header {
 	border-color: #cccccc;
 	border-bottom-style: solid;
 	border-width: 5px;
-	padding: 20px;
 	margin: 0 auto;
 	overflow: auto;
+	width: 100%;
 }
 
 h1 {
@@ -31,6 +32,13 @@ footer {
 	padding: 20px;
 	clear: both;
 	text-align: center;
+	border-top-width: 5px;
+	border-top-color: #4aaaa5;
+	border-top-style: solid; 
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
 }
 
 p {
@@ -45,14 +53,18 @@ img {
 }
 
 .main-content {
-	padding: 200px;
-	margin: 50px;
-	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");
+	padding-right: 200px;
+	padding-left: 200px;
+	/*background-repeat: repeat;
+	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");*/
 }
 
 #name {
 	background-color: #4aaaa5;
 	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 50px;
 }
 
 #links {
@@ -63,16 +75,34 @@ img {
 #about {
 	background-color: #fff;
 	color: #4aaaa5;
+	width: 640px;
+	padding: 10px;
+	float: left;
+	border-bottom-style: solid;
+	border-bottom-color: #777;
+	border-bottom-width: 2px;
+}
+
+#description {
+	background-color: #fff;
 	width: 650px;
-	padding: 50px;
+	overflow: visible;
+	padding: 1px;
+	float: left;
+
+}
+
+#profilepic {
+	clear: both;
 }
 
 #connect {
 	width: 270px;
 	background-color: #fff;
 	color: #4aaaa5;
-	padding: 50px;
-	margin: 10px;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
 } 
 
 #a,
