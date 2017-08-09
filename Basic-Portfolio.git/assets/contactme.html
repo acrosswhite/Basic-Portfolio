@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<title>Contact ME</title>
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
 
@@ -24,38 +25,38 @@
 
 		<section class="main-content">
 			<div id="contact">
+
+				<h1 id="contactstyle">Contact Me</h1>
+				<br>
+				<br>
 				<form action="/action_page.php" id="usrform">
-				Name: <input type="text" name="usrname"> 
+
+				Name: <input type="text" name="usrname" placeholder="Name"> 
+
+				Email: <input type="text" name="email" placeholder="Email"> 
+
+				Message: 
+				<textarea name="message" form="usrform">Leave your message here...</textarea>
+
 				<input type="submit">
+
 				</form>
 
 			</div>
 
-			<div id="formfields">
-				Name
-			</div>
-			<div id="formfields">
-				Email
-			</div>
-			<div id="formfields">
-				Message
-			</div>
-
-			<div id="submit">
-				Submit
-			</div>
-
 			<div id="connect">
-				<h1>Connect With Me</h1>
-				<img src="./images/GitHub.png" alt="GitHub" width=40 height=40>
-				<img src="./images/LinkedIn.png" alt="LinkedIn" width=40 height=40>
-				<img src="./images/stackoverflow.png" alt="stackoverflow" width=40 height=40>
+				<h1 id="connectheader">Connect With Me</h1>
+				<ul>
+					<li><img src="./images/GitHub.png" alt="GitHub"></li>
+					<li><img src="./images/LinkedIn.png" alt="LinkedIn"></li>
+					<li><img src="./images/stackoverflow.png" alt="stackoverflow"></li>
+				</ul>
 			</div>
 
 		</section>
 
 		<footer>
-			Copyright Me
+			&copy; Copyright Me
 		</footer>
 		
 
