@@ -71,7 +71,8 @@ img {
 	padding: 10px;
 }
 
-#about {
+#about,
+#contact {
 	background-color: #fff;
 	color: #4aaaa5;
 	width: 640px;
@@ -88,7 +89,6 @@ img {
 	overflow: visible;
 	padding: 1px;
 	float: left;
-
 }
 
 #profilepic {
@@ -112,6 +112,14 @@ img {
 	border-right-style: solid;
 	border-right-width: 5px;
 	border-right-color: #fff;
+}
+
+input[type=text]{
+	width: 100%
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #777;
 }
 
 
