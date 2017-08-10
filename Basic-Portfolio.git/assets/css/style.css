@@ -40,8 +40,10 @@ footer {
 	border-top-width: 5px;
 	border-top-color: #4aaaa5;
 	border-top-style: solid; 
-	position: scroll;
+	position: absolute;
 	bottom: 0;
+	left: 0;
+	overflow: hidden;
 	width: 100%;
 	color: white;
 }
@@ -63,29 +65,45 @@ input[type=text]{
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
-	border: 2px solid #777;
+	border: 2px solid lightgray;
 	font-size: 18px;
 }
 
 textarea[name=message]{
 	height: 400px;
 	width: 600px;
-	line-height: 1.5;
+	line-height: 1.25;
 	margin: 8px 0;
 	width: 100%;
 	padding: 20px, 30px;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 input[type=submit]{
 	background-color: #4aaaa5;
 	color: white;
-	height: 50px;
-	width: 80px;
-	border-color: #777;
+	height: 60px;
+	width: 90px;
+	border-color: lightgray;
 	border-style: solid;
 	border-size: 5px;
 	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: lightgray;
+}
+
+a:visited {
+	color: #777;
+}
+
+a:hover {
+	color: dimgray;
 }
 
 li {
@@ -97,15 +115,15 @@ li {
 .main-content {
 	padding-right: 200px;
 	padding-left: 200px;
-	/*background-repeat: repeat;
-	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");*/
+	min-height: 100%;
 }
 
 .portfolio {
-	width: 30%;
+	width: 40%;
 	background-color: white;
 	float: left;
 	position: relative;
+	padding: 20px;
 }
 
 .portfolio img {
@@ -115,10 +133,12 @@ li {
 }
 
 .galleryimages {
-	padding-right: 200px;
-	padding-left: 200px;
+	padding-top: 75px;
 	background-color: white;
 	width: 60%;
+	display: block;
+	float:left;
+	clear: none;
 }
 
 .desc {
@@ -139,6 +159,7 @@ li {
 	margin-left: 50px;
 	height: 100px;
 	font-style: bold;
+	font-size: 28px;
 }
 
 #links {
@@ -161,9 +182,9 @@ li {
 
 #description {
 	background-color: #fff;
-	width: 650px;
+	width: 60%;
 	overflow: visible;
-	padding: 1px;
+	padding: 10px;
 	float: left;
 }
 
@@ -176,8 +197,9 @@ li {
 	background-color: #fff;
 	color: #4aaaa5;
 	padding: 10px;
-	margin-left: 40px;
+	margin-left: 100px;
 	float: left;
+	clear:none;
 } 
 
 #connectheader {
@@ -192,16 +214,17 @@ li {
 	float: left;
 	padding: 20px;
 	border-right-style: solid;
-	border-right-width: 2px;
-	border-right-height: 4px;
-	border-right-color: #777;
+	border-right-width: 1px;
+	border-right-height: 2px;
+	border-right-color: lightgray;
 }
 
 #contactstyle {
 	border-bottom-style: solid;
 	border-bottom-color: #777;
 	border-bottom-width: 2px;
-	width: 60%;
+	width: 100%;
+	font-size: 20px;
 }
 
 #gallery {
