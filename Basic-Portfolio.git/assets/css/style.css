@@ -1,5 +1,6 @@
 header,
-h1 {
+h1,
+h2 {
 	font-family: "Georgia", Times, Times New Roman, Serif;
 	font-size: 24px;
 }
@@ -27,6 +28,10 @@ h1 {
 	float: left;
 }
 
+h2 {
+	color: #4aaaa5;
+}
+
 footer {
 	background-color: #666666;
 	padding: 20px;
@@ -39,7 +44,6 @@ footer {
 	bottom: 0;
 	width: 100%;
 	color: white;
-
 }
 
 p {
@@ -97,6 +101,37 @@ li {
 	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");*/
 }
 
+.portfolio {
+	width: 30%;
+	background-color: white;
+	float: left;
+	position: relative;
+}
+
+.portfolio img {
+	margin: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+.galleryimages {
+	padding-right: 200px;
+	padding-left: 200px;
+	background-color: white;
+	width: 60%;
+}
+
+.desc {
+	background-color: #4aaaa5;
+	color: white;
+	position: absolute;
+	top: 75%;
+	height: 20px;
+	padding-top: 8px;
+	width: 200px;
+	text-align: center;
+}
+
 #name {
 	background-color: #4aaaa5;
 	color: #fff;
@@ -112,7 +147,8 @@ li {
 }
 
 #about,
-#contact {
+#contact,
+#gallery {
 	background-color: #fff;
 	color: #4aaaa5;
 	width: 60%;
@@ -167,5 +203,11 @@ li {
 	border-bottom-width: 2px;
 	width: 60%;
 }
+
+#gallery {
+	clear: both;
+}
+
+
 
 
