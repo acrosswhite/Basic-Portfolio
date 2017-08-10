@@ -40,7 +40,6 @@ footer {
 	border-top-width: 5px;
 	border-top-color: #4aaaa5;
 	border-top-style: solid; 
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	overflow: hidden;
@@ -84,6 +83,7 @@ input[type=submit]{
 	color: white;
 	height: 60px;
 	width: 90px;
+	font-size: 16px;
 	border-color: lightgray;
 	border-style: solid;
 	border-size: 5px;
@@ -116,6 +116,7 @@ li {
 	padding-right: 200px;
 	padding-left: 200px;
 	min-height: 100%;
+	clear: both;
 }
 
 .portfolio {
