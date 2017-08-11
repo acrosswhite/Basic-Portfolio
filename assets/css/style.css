@@ -11,7 +11,7 @@ body {
 	color: #777;
 	border-color: #ddd;
 	background-repeat: repeat;
-	background-image: url("file:///Users/ashleycrosswhite/Basic-Portfolio.git/assets/images/topography.png");
+	background-image: url("../images/topography.png");
 }
 
 header {
@@ -76,6 +76,7 @@ textarea[name=message]{
 	width: 100%;
 	padding: 20px, 30px;
 	font-size: 14px;
+	color: lightgray;
 }
 
 input[type=submit]{
